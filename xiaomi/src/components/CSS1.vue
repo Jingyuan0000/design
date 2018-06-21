@@ -21,7 +21,7 @@
               <p>全高清屏/人工智能语音</p>
               <span>1399</span>
               <dl>1699</dl>
-           </a>
+            </a>
           </li>
           <li>
             <a href="https://www.mi.com/mitv4A/43y/">
@@ -30,7 +30,7 @@
               <p>全高清屏/人工智能语音</p>
               <span>1399</span>
               <dl>1699</dl>
-           </a>
+            </a>
           </li>
           <li>
             <a href="https://www.mi.com/mitv4A/43y/">
@@ -39,7 +39,7 @@
               <p>全高清屏/人工智能语音</p>
               <span>1399</span>
               <dl>1699</dl>
-           </a>
+            </a>
           </li>
           <li>
             <a href="https://www.mi.com/mitv4A/43y/">
@@ -48,7 +48,7 @@
               <p>全高清屏/人工智能语音</p>
               <span>1399</span>
               <dl>1699</dl>
-           </a>
+            </a>
           </li>
           <li>
             <a href="https://www.mi.com/mitv4A/43y/">
@@ -57,7 +57,7 @@
               <p>全高清屏/人工智能语音</p>
               <span>1399</span>
               <dl>1699</dl>
-           </a>
+            </a>
           </li>
           <li>
             <a href="https://www.mi.com/mitv4A/43y/">
@@ -66,7 +66,7 @@
               <p>全高清屏/人工智能语音</p>
               <span>1399</span>
               <dl>1699</dl>
-           </a>
+            </a>
           </li>
           <li>
             <a href="https://www.mi.com/mitv4A/43y/">
@@ -75,22 +75,22 @@
               <p>全高清屏/人工智能语音</p>
               <span>1399</span>
               <dl>1699</dl>
-           </a>
+            </a>
           </li>
-            <li>
-              <div class="ads-right--1">
-                <img src="https://i1.mifile.cn/a1/pms_1521634907.16181074!220x220.jpg" alt="">
-                <strong></strong>
-                <p></p>
-                <span></span>
-             </div>
-             <div class="ads-right--2">
-                <img src="" alt="">
-                <strong></strong>
-                <p></p>
-                <span></span>
-             </div>
-            </li>
+          <li>
+            <div class="ads-right--1">
+              <img src="https://i1.mifile.cn/a1/pms_1521634907.16181074!220x220.jpg" alt="">
+              <strong></strong>
+              <p></p>
+              <span></span>
+            </div>
+            <div class="ads-right--2">
+              <img src="" alt="">
+              <strong></strong>
+              <p></p>
+              <span></span>
+            </div>
+          </li>
         </ul>
 
       </div>
@@ -121,6 +121,9 @@
     .ads-right
       width 992px
       height 614px
+      ul
+        margin 0
+        padding 0
       li
         float left
         margin-left 14px
