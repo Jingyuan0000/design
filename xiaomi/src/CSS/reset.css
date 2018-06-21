@@ -1,21 +1,9 @@
-<template>
-  <div id="app">
-    <!-- <img src="./assets/logo.png"> -->
-    <router-link to="/">首页</router-link>|
-    <router-link to="/CSS1">CSS第一课</router-link>
-    <router-link to="/Part1">小米第一部分</router-link>
-
-    <router-view/>
-  </div>
-</template>
-
-<script>
-export default {
-  name: 'App'
-}
-</script>
-
-<style>
+@charset "utf-8";
+/* 
+@名称: base
+@功能: 重设浏览器默认样式
+*/
+/* 防止用户自定义背景颜色对网页的影响，添加让用户可以自定义字体 */
 html {
   color: #000;
   background: #fff;
@@ -216,4 +204,3 @@ body .fn-hide {
   width: 1226px;
   margin: 0 auto;
 }
-</style>
