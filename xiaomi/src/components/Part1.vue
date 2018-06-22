@@ -39,12 +39,14 @@
 
     <div class="navbar">
       <div class="navbar_main r">
-        <a href="" class="logo"><img src="../../static/image/logo/logo.png" alt=""></a>
+        <div class="navbar_left">
+          <a href="" class="logo"><img src="../../static/image/logo/logo.png" alt=""></a>
+        </div>
         <div class="navbar_center">
           <ul class="navlist">
             <li>
               <a href="">
-                <span>小米</span>
+                <span>小米手机</span>
               </a>
             </li>
             <li>
@@ -97,10 +99,10 @@
         <div class="navbar_right">
           <input type="search" class="item-search">
           <div class="hotwords">
-            <a href=""></a>
-            <a href=""></a>
+            <a href="">小米8</a>
+            <a href="">小米MIX 2S</a>
           </div>
-          <input type="submit" class="search-btn">
+          <a href=""><img src="../../static/image/logo/search.png" alt=""></a>
         </div>
       </div>
     </div>
@@ -137,29 +139,73 @@
     color #424242
 .navbar
   // display block
-  .navbar_main.fn-clear
-    display inline
+  .navbar_main
     height 100px
     .navbar_left
       float left
       width 62px
+      height 55px
       margin-top 22px
-      display inline
+      margin-right 10px
+      background red
     .navbar_center
-      display inline
-      width 850px
-      height 100px
+      width 820px
+      height 88px
+      float left
+      background blue
+      padding 12px 0 0 30px
+      a
+        display block
+        padding 26px 10px 38px
+        color #333
+        font-size 16px
+        float left
       ul.navlist
-        width 850px
-        height 100px
-        display inline
         float left
         li
-          display inline
           float left
           list-style none
     .navbar_right
       float right
       width 296px
       height 50px
+      margin-top 25px
+      background orange
+      .item-search
+        float left
+        width 245px
+        height 50px
+        padding 0 10px
+        border 1px solid #e0e0e0
+        position relative
+        .hotwords
+          position absolute
+          top 14px
+          right 100px
+          z-index 2
+          text-align right
+          width 124.05px
+          height 21px
+          a
+            // display inline-block
+            float left
+            color #757575
+            font-size 12px
+            margin-left 5px
+            padding 0 5px
+            background #eee
+            // font 14px / 1.5 'Helvetica Neue', Helvetica, Arial, 'Microsoft Yahei', 'Hiragino Sans GB', 'Heiti SC', 'WenQuanYi Micro Hei', sans-serif
+        .search-btn
+          position absolute
+          right 0
+          top 0
+          z-index 2
+          width 52px
+          height 50px
+          border 1px solid #e0e0e0
+          font-size 24px
+          line-height 24px
+          background #fff
+          color #616161
+          outline 0
 </style>
