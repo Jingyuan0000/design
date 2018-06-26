@@ -8,8 +8,8 @@
     </p>
 
     <label for="gender">Gender</label>
-    <p><input type="radio" name="female" id="female">Female</p>
-    <p><input type="radio" name="male" id="male" checked="checked">Male</p>
+    <p><input type="radio" name="female" id="female" value="0" @change="chan(this)">Female</p>
+    <p><input type="radio" name="male" id="male" value="1" @change="chan(this)">Male</p>
 
     <p>
       <label for="age">Age</label>
@@ -51,12 +51,18 @@ export default {
       if (!this.age) this.errors.push('Age required.')
       e.preventDefault()
     },
-    change: function () {
-      var f = document.getElementById('female')
-      var m = document.getElementById('male')
-      if (f.checked === true) {
-        m.checked = false
-      } else { m.checked = true }
+    chan: function (obj) {
+      var f = document.getElementsByName('female')
+      alert(f.value)
+
+      // var m = document.getElementById('male')
+      // if (f.value === '0') {
+      //   $("#female").attr("checked","checked"); // eslint-disable-line
+      //   $("#male").removeAttr("checked"); // eslint-disable-line
+      // } else {
+      //   $("#male").attr("checked","checked");// eslint-disable-line
+      //   $("#female").removeAttr("checked"); // eslint-disable-line
+      // }
     }
 
   }
