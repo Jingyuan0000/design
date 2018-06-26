@@ -310,7 +310,7 @@
             </div>
           </div>
           <div class="box-bd">
-            <div class="row">
+            <div class="row-container">
               <div class="box-left">
                 <ul class="left-promo fn-clear">
                   <li>
@@ -485,18 +485,20 @@
       width 296px
       height 50px
       margin-top 25px
+      position relative
       .item-search
         float left
         width 245px
         height 50px
-        right 0
+        right 52px
         padding 0 10px
         border 1px solid #e0e0e0
-        position relative
+        border-right-width 0
+        position absolute
       .search-btn
         position absolute
-        top 24px
-        right 238px
+        top 0
+        right 0
         z-index 2
         width 52px
         height 50px
@@ -507,8 +509,8 @@
         outline 0
       .hotsearch
         position absolute
-        right 277px
-        top 40px
+        right 42px
+        top 17px
         z-index 2
         text-align right
         width 124.05px
@@ -525,6 +527,7 @@
 .home-category
   width 1226px
   height 644px
+  margin-bottom 26px
   // background orange
   .main-menu
     position relative
@@ -933,7 +936,7 @@
             margin-bottom 4px
       .box-bd
         height 628px
-        .row
+        .row-container
           margin-left -14px
           .box-left
             width 234px
