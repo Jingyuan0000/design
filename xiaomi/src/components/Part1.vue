@@ -301,8 +301,9 @@
     <!-- 产品主页开始 -->
     <div class="home-main">
       <div class="home-main-container">
-        <div class="home-main-box">
-          <div class="box-hd">
+        <!-- 手机开始 -->
+        <div class="home-main-box" id="phone">
+          <div class="box-hd fn-clear">
             <h2 class="title">手机</h2>
             <div class="more">
               <a href="">查看全部</a>
@@ -421,6 +422,161 @@
             </div>
           </div>
         </div>
+        <!-- 手机结束 -->
+        <div class="home-banner-2">
+          <a href="https://item.mi.com/product/10000103.html">
+            <img src="//i1.mifile.cn/a4/xmad_15296632592516_QsRyp.jpg" alt="">
+          </a>
+        </div>
+        <!-- 家电开始 -->
+        <div class="home-main-box" id="appliance">
+          <div class="box-hd">
+            <h2 class="title">家电</h2>
+            <div class="product-nav">
+              <ul class="switch fn-clear">
+                <li class="switch--active">热门</li>
+                <li>电视影音</li>
+                <li>电脑</li>
+                <li>家居</li>
+              </ul>
+              <!-- <a href="">查看全部</a>
+              <img src="../../static/image/icon/more1.png" alt=""> -->
+            </div>
+          </div>
+          <div class="box-bd">
+            <div class="row-container">
+              <div class="box-left">
+                <ul class="left-promo fn-clear">
+                  <li class="two-ads">
+                    <a href=""><img src="//i1.mifile.cn/a4/xmad_15266395374048_JnZQo.jpg" alt=""></a>
+                  </li>
+                  <li class="two-ads">
+                    <a href=""><img src="//i1.mifile.cn/a4/xmad_15123939053142_dFlAw.jpg" alt=""></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="box-right">
+                <ul class="right-promo fn-clear">
+                  <li>
+                    <div class="figure-img">
+                      <a href="https://item.mi.com/product/8274.html">
+                        <img src="//i1.mifile.cn/a1/pms_1465366178.11466342!220x220.jpg" alt="">
+                      </a>
+                    </div>
+                    <h3 class="title">米家恒温电水壶</h3>
+                    <p class="desc">水温智能控制，304 不锈钢内胆</p>
+                    <p class="price">
+                      <span>199</span>
+                    </p>
+                  </li>
+                  <li>
+                    <div class="figure-img">
+                      <a href="">
+                        <img src="//i1.mifile.cn/a1/pms_1506417289.23728408!220x220.jpg" alt="">
+                      </a>
+                    </div>
+                    <h3 class="title">小米随身手电筒</h3>
+                    <p class="desc">11 挡调光，随心而亮</p>
+                    <p class="price">
+                      <span>79</span>
+                    </p>
+                  </li>
+                  <li>
+                    <div class="figure-img">
+                      <a href="https://item.mi.com/product/8274.html">
+                        <img src="//i1.mifile.cn/a1/pms_1472609961.95298675!220x220.jpg" alt="">
+                      </a>
+                    </div>
+                    <h3 class="title">米家扫地机器人</h3>
+                    <p class="desc">智能路径规划，扫得干净扫得快</p>
+                    <p class="price">
+                      <span>1699</span>
+                    </p>
+                  </li>
+                  <li>
+                    <div class="figure-img">
+                      <a href="https://item.mi.com/product/8274.html">
+                        <img src="//i1.mifile.cn/a1/T1zBYgBCWv1RXrhCrK!220x220.jpg" alt="">
+                      </a>
+                    </div>
+                    <h3 class="title">小米空气净化器2</h3>
+                    <p class="desc">10分钟，房间空气焕然一新</p>
+                    <p class="price">
+                      <span>699</span>
+                    </p>
+                  </li>
+                  <li>
+                    <div class="figure-img">
+                      <a href="https://item.mi.com/product/8274.html">
+                        <img src="//i1.mifile.cn/a1/T1OVC_ByY_1RXrhCrK!220x220.jpg" alt="">
+                      </a>
+                    </div>
+                    <h3 class="title">米家压力IH电饭煲</h3>
+                    <p class="desc">智能烹饪，灰铸铁粉体涂层内胆</p>
+                    <p class="price">
+                      <span>999</span>
+                    </p>
+                  </li>
+                  <li>
+                    <div class="figure-img">
+                      <a href="https://item.mi.com/product/8274.html">
+                        <img src="//i1.mifile.cn/a1/pms_1496647119.81414190!220x220.jpg" alt="">
+                      </a>
+                    </div>
+                    <h3 class="title">飞利浦智睿球泡灯</h3>
+                    <p class="desc">自由调节亮度，Wi-Fi随时操控</p>
+                    <p class="price">
+                      <span>49</span>
+                    </p>
+                  </li>
+                  <li>
+                    <div class="figure-img">
+                      <a href="https://item.mi.com/product/8274.html">
+                        <img src="//i1.mifile.cn/a1/pms_1495520422.36514041!220x220.jpg" alt="">
+                      </a>
+                    </div>
+                    <h3 class="title">米家 LED 智能台灯</h3>
+                    <p class="desc">无可视频闪，四种场景优化调光</p>
+                    <p class="price">
+                      <span>169</span>
+                    </p>
+                  </li>
+                  <li class="mini-two-ads">
+                    <div class="mini-figure-img">
+                      <a href="https://item.mi.com/product/8274.html">
+                        <img src="//i1.mifile.cn/a1/pms_1479190789.95594557!220x220.jpg" alt="">
+                      </a>
+                    </div>
+                    <h3 class="mini-title-1">小米盒子3s</h3>
+                    <!-- <p class="desc"></p> -->
+                    <p class="mini-price">
+                      <span>299元</span>
+                    </p>
+                  </li>
+                  <li class="mini-two-ads">
+                    <div class="mini-mini-figure-img">
+                      <a href="https://item.mi.com/product/8274.html">
+                        <img src="../../static/image/icon/more2.png" alt="" class="mini-mini-img">
+                      </a>
+                    </div>
+                    <a href="" class="mini-mini-a">
+                      <!-- <h3 class="mini-title-2"></h3> -->
+                      浏览更多
+                      <p class="mini-desc">家居</p>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 家电结束 -->
+        <div class="home-banner-2">
+          <a href="https://item.mi.com/product/10000103.html">
+            <img src="//i1.mifile.cn/a4/xmad_15204795762271_ZwaxE.jpg" alt="">
+          </a>
+        </div>
+
       </div>
     </div>
 
@@ -906,6 +1062,14 @@
   img
     width 1226px
     height 120px
+.home-banner-2
+  margin 28px 0 22px
+  overflow hidden
+  width 1226px
+  height 120px
+  img
+    width 1226px
+    height 120px
 .home-main
   padding-top 22px
   background #f5f5f5
@@ -923,6 +1087,7 @@
           font-size 22px
           font-weight 200
           line-height 58px
+          font 22px / 58px 'Helvetica Neue', Helvetica, Arial, 'Microsoft Yahei', 'Hiragino Sans GB', 'Heiti SC', 'WenQuanYi Micro Hei', sans-serif
         .more
           position absolute
           right 0
@@ -931,20 +1096,53 @@
             line-height 58px
             color #424242
             transition all 0.4s
+              font 16px / 58px 'Helvetica Neue', Helvetica, Arial, 'Microsoft Yahei', 'Hiragino Sans GB', 'Heiti SC', 'WenQuanYi Micro Hei', sans-serif
           img
             line-height 24px
             margin-bottom 4px
+        .product-nav
+          width 280px
+          height 42px
+          position absolute
+          right 0
+          top 0
+          // float right
+          ul.switch
+            width 280px
+            height 42px
+            margin 0
+            padding 16px 0 0
+            list-style none
+            float left
+            // font-size 16px
+            li.switch--active
+              height 26px
+              color #ff6700
+              border-bottom 2px solid #ff6700
+              margin 0 0 0 30px
+              // display inline-block
+              font 16px / 26px 'Helvetica Neue', Helvetica, Arial, 'Microsoft Yahei', 'Hiragino Sans GB', 'Heiti SC', 'WenQuanYi Micro Hei', sans-serif
+              float left
+            li
+              height 26px
+              margin 0 0 0 30px
+              // display inline-block
+              padding 0
+              color #424242
+              border-bottom 2px solid transparent
+              transition border-color 0.5s
+              font 16px / 1.5 'Helvetica Neue', Helvetica, Arial, 'Microsoft Yahei', 'Hiragino Sans GB', 'Heiti SC', 'WenQuanYi Micro Hei', sans-serif
+              float left
       .box-bd
         height 628px
         .row-container
-          margin-left -14px
+          // margin-left -14px
           .box-left
             width 234px
             float left
-            margin-left 14px
+            // margin-left 14px
             min-height 1px
             ul.left-promo
-              margin 0 0 -14px -14px
               height 614px
               padding 0
               list-style none
@@ -953,7 +1151,7 @@
                 width 234px
                 position relative
                 float left
-                margin-left 14px
+                // margin-right 14px
                 margin-bottom 14px
                 background #fff
                 transition all 0.2s
@@ -964,13 +1162,24 @@
                   img
                     height 614px
                     width 234px
+              li.two-ads
+                height 300px
+                position relative
+                float left
+                width 234px
+                margin-bottom 14px
+                background #fff
+                transition all 0.2s
+                img
+                  height 300px
+                  width 234px
           .box-right
             width 978px
             float left
-            margin-left 14px
+            // margin-left 14px
             min-height 1px
             ul.right-promo
-              margin 0 0 -14px -14px
+              // margin 0 0 -14px -14px
               width 992px
               height 614px
               li
@@ -1015,4 +1224,62 @@
                   margin 0 10px 14px
                   text-align center
                   color #ff6709
+              li.mini-two-ads
+                width 234px
+                height 143px
+                padding-top 50px
+                position relative
+                float left
+                margin-left 14px
+                margin-bottom 14px
+                background #fff
+                transition all 0.2s
+                .mini-figure-img
+                  position absolute
+                  right 20px
+                  top 32px
+                  width 80px
+                  height 80px
+                  img
+                    width 80px
+                    height 80px
+                .mini-mini-figure-img
+                  position absolute
+                  right 35px
+                  top 48px
+                  width 48px
+                  height 48px
+                  a
+                    display block
+                  img.mini-mini
+                    position absolute
+                    right 35px
+                    top 48px
+                    width 48px
+                    height 48px
+                a.mini-mini-a
+                  text-align left
+                  display block
+                  margin 0 110px 0 30px
+                  width 94px
+                  height 45px
+                  // font-size 18px
+                  color #333
+                  font 18px / 1.5 'Helvetica Neue', Helvetica, Arial, 'Microsoft Yahei', 'Hiragino Sans GB', 'Heiti SC', 'WenQuanYi Micro Hei', sans-serif
+                .mini-title-1
+                  margin -10px 110px 5px 30px
+                  font-size 14px
+                  font-weight 400
+                  font 14px / 1.5 'Helvetica Neue', Helvetica, Arial, 'Microsoft Yahei', 'Hiragino Sans GB', 'Heiti SC', 'WenQuanYi Micro Hei', sans-serif
+                .mini-desc
+                  // font-size 12px
+                  text-align left
+                  color #757575
+                  width 94px
+                  height 18px
+                  font 12px / 1.5 'Helvetica Neue', Helvetica, Arial, 'Microsoft Yahei', 'Hiragino Sans GB', 'Heiti SC', 'WenQuanYi Micro Hei', sans-serif
+                .mini-price
+                  margin 0 110px 0 30px
+                  font-size 12px
+                  color #ff6700
 </style>
